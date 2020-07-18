@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="#ADD8E6">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:background="#D3D3D3"
+            android:layout_marginBottom="2dp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_image"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/title"
+            />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="#ADD8E6">
+
+            <ImageView
+                android:id="@+id/like"
+                android:layout_width="44dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_like" />
+
+            <ImageView
+                android:id="@+id/comment"
+                android:layout_width="43dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="6dp"
+                android:layout_toEndOf="@+id/like"
+                android:src="@drawable/ic_comment" />
+
+            <ImageView
+                android:id="@+id/save"
+                android:layout_width="36dp"
+                android:layout_height="37dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_save" />
+
+            <Button
+                android:id="@+id/reg_but"
+                android:layout_width="191dp"
+                android:layout_height="33dp"
+
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="138dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="81dp"
+                android:background="#00008b"
+                android:text="REGISTER"
+                android:textColor="#ffffff" />
+
+
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/description"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Register if Interested"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/comments"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

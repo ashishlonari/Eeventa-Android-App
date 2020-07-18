@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "347718011169",
+    "firebase_url": "https://eventa-505e1.firebaseio.com",
+    "project_id": "eventa-505e1",
+    "storage_bucket": "eventa-505e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347718011169:android:d906abf2285973b8a21660",
+        "android_client_info": {
+          "package_name": "com.example.eventa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347718011169-c4qprckofklbs5m03cl88cje449p9np8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eventa",
+            "certificate_hash": "affaa72e08e1daed5e378ef775caf40c42fe90e6"
+          }
+        },
+        {
+          "client_id": "347718011169-7tirjbaoua1gi6vttf3e9qft9q9paj6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv29o7CFeDPg5RPu0k7be2bART4OCR7MQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347718011169-7tirjbaoua1gi6vttf3e9qft9q9paj6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
